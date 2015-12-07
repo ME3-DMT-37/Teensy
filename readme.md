@@ -1,9 +1,5 @@
 # Teensy
 
-Class for MATLAB that allows communication with a Teensy microcontroller
-
-## Instructions
-
 The Teensy.m file must be included on the same path (i.e. in the same folder) as any script requiring the enclosed functions.
 
 Initialize a Teensy object using Teensy(name, baud, auto), where the properties 'name' and 'baud' refer to the name and baud rate of the Teensy's serial port. The 'auto' property should not generally be provided:
