@@ -16,11 +16,11 @@ Note that depending on the serial port allocated to the Teensy, 'COM1' may need 
 
 The following commands are available:
 
-  angle, with value from 0 to 360 in degrees)
-  speed, with values from 0 to 100 in percent)
-  direction, with value 0 or 1 representing 'clockwise' and 'counterclockwise'
-  continuous, with value 0 or 1 representing 'true' and 'false'
-  rotate, with value 0 or 1 representing 'true' and 'false'
+    angle, with value from 0 to 360 in degrees)
+    speed, with values from 0 to 100 in percent)
+    direction, with value 0 or 1 representing 'clockwise' and 'counterclockwise'
+    continuous, with value 0 or 1 representing 'true' and 'false'
+    rotate, with value 0 or 1 representing 'true' and 'false'
 
 The stepper motor will not move until a rotate command is sent:
 
