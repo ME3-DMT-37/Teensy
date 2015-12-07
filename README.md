@@ -2,8 +2,7 @@
 
 Class for MATLAB that allows communication with a Teensy microcontroller
 
-Instructions
-============
+## Instructions
 
 The Teensy.m file must be included on the same path (i.e. in the same folder) as any script requiring the enclosed functions.
 
