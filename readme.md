@@ -4,7 +4,7 @@ The Teensy.m file must be included on the same path (i.e. in the same folder) as
 
 Initialize a Teensy object using Teensy(name, baud, auto), where the properties 'name' and 'baud' refer to the name and baud rate of the Teensy's serial port. The 'auto' property should not generally be provided:
 
-    e.g. t = Teensy('COM1', 9600);
+    e.g. t = Teensy('COM3', 9600);
 
 Note that depending on the serial port allocated to the Teensy, 'COM1' may need to be substituted for 'COM2', 'COM3', etc. Commands are sent to the Teensy using commandTeensy(Teensy, command, value):
 
