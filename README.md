@@ -2,7 +2,8 @@
 
 Class for MATLAB that allows communication with a Teensy microcontroller
 
-# Instructions
+Instructions
+============
 
 The Teensy.m file must be included on the same path (i.e. in the same folder) as any script requiring the enclosed functions.
 
@@ -16,8 +17,8 @@ Note that depending on the serial port allocated to the Teensy, 'COM1' may need 
 
 The following commands are available:
 
-    angle, with value from 0 to 360 in degrees)
-    speed, with values from 0 to 100 in percent)
+    angle, with value from 0 to 360 in degrees
+    speed, with values from 0 to 100 in percent
     direction, with value 0 or 1 representing 'clockwise' and 'counterclockwise'
     continuous, with value 0 or 1 representing 'true' and 'false'
     rotate, with value 0 or 1 representing 'true' and 'false'
